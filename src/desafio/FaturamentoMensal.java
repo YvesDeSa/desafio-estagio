@@ -15,7 +15,7 @@ import java.util.List;
 		
 public class FaturamentoMensal {
 	  public static void main(String[] args) {
-		  File inputFile = new File("dados (2).xml");
+		  File inputFile = new File("recursos/dados.xml");
           DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
           DocumentBuilder dBuilder;
           Document doc = null;
